@@ -20,7 +20,7 @@ jobs:
         board:
           - nice_nano
         shield:
-          - 12x5
+          - mg12x5
         cmake-args: [""]
     steps:
       - name: Checkout

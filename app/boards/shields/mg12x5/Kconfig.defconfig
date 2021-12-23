@@ -5,7 +5,7 @@
 # The Kconfig.defconfig file is where overrides for various configuration
 # settings that make sense to have different defaults when this shield is used. 
 
-if 12x5
+if mg12x5
     config ZMK_KEYBOARD_NAME
-        default "12x5 Ortholinear"
+        default "mg12x5"
 endif
