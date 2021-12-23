@@ -5,4 +5,4 @@ type: shield
 url: https://github.com/mattsgarrison/zmk-config
 requires: [nice_nano]
 features:
- - keys
+  - keys
