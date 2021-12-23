@@ -2,7 +2,7 @@ file_format: "1"
 id: 12x5
 name: 12x5
 type: shield
-url: https://github.com/mattsgarrison/zmk-config
+url: https://github.com/mattsgarrison/zmk
 requires: [nice_nano]
 features:
   - keys
