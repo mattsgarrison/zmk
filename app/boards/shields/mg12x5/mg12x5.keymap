@@ -45,11 +45,11 @@
 		};
 		adjust {
 			bindings = <
+				&none        &none        &none        &none        &none         &none          &none       &none        &none        &none       &none       &kp K_SLEEP
 				&none        &none        &none        &none        &none         &none          &none       &none        &none        &none       &none       &none
 				&none        &none        &none        &none        &none         &none          &none       &none        &none        &none       &none       &none
 				&none        &none        &none        &none        &none         &none          &none       &none        &none        &none       &none       &none
-				&none        &none        &none        &none        &none         &none          &none       &none        &none        &none       &none       &none
-				&none        &none        &none        &none        &none         &none          &none       &none        &none        &none       &none       &none
+				&bootloader  &none        &none        &none        &none         &none          &none       &none        &none        &none       &none       &none
 			>;
 		};
 	};
