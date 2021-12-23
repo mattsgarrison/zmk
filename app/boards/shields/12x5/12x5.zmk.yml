@@ -4,6 +4,5 @@ name: 12x5
 type: shield
 url: https://github.com/mattsgarrison/zmk-config
 requires: [nice_nano]
-exposes: []
 features:
  - keys

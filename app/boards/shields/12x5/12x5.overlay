@@ -12,9 +12,6 @@
  * node named zmk,kscan that references a KSCAN driver instance.
  */
 
-// Provides the RC macro used for Matrix Transformations
-#include <dt-bindings/zmk/matrix_transform.h>
-
 / {
     chosen {
         zmk,kscan = &kscan0;
@@ -23,8 +20,8 @@
     kscan0: kscan_0 { 
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
-        diode-direction = "col2row"; // keypresses work... gotta figure out the mapping now
-    
+        diode-direction = "col2row";
+
         row-gpios
             = <&pro_micro_a 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // yellow row 0  29 new blue
             , <&pro_micro_a 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // green  row 1  31 new purple
